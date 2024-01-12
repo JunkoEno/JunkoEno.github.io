@@ -1,15 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"><meta name="theme-color" content="#ffffff">
-    <title>The Junko Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Junko Website">
-    <link rel="stylesheet" type="text/css" href="/main.css">
-    <link rel="stylesheet" type="text/css" href="/fonts.css">
-    <link rel="manifest" href="/site.webmanifest">
-  </head>
-  <body>
-<p>Just a site</p>
-  </body>
+<head>
+<title>but if life was full of downs, wouldn’t it get boring?</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ul.a {
+  list-style-type: circle;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #717385;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";color: #EFD2CE;font-size:16px;margin:2em auto;max-width:800px;padding:1em;line-height:1.4;text-align:justify;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto
+}
+
+/* Style the header */
+.header {
+  background-color: #717385;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #717385;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="img/1619716.png"  width="1000" height="300">
+</div>
+
+<div class="row">
+  <div class="column side" style="background-color:#717385;"></div>
+  <div class="column middle" style="background-color:#717385;">
+  <ul class="a">
+  <li><a href="blog.seedofdespair.live>blog</a></li>
+</ul>
+</div>
+  <div class="column side" style="background-color:#717385;"></div>
+</div>
+
+<div class="footer">
+  <p></p>
+</div>
+
+</body>
 </html>
